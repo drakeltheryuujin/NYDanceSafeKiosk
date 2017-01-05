@@ -1,0 +1,45 @@
+html {
+  padding:0;
+  margin:0;
+}
+
+body {
+  background-color:#f5dd25;
+  /*color:#333;*/
+}
+
+.btn {
+  border-radius:10px;
+}
+
+.btn-primary {
+  background:#123241;
+}
+
+div.vertical-align {
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  width:100%;
+  left:0;
+}
+
+div.jumbotron.vertical-align {
+  background-color:rgba(245,221,37, .75);
+  color:#333;
+}
+
+li.list-group-item {
+  background:#123241;
+  margin-bottom:10px;
+  border-radius:5px;
+}
+
+li.list-group-item a {
+  color:#fff;
+}
+
+li.list-group-item a:focus, li.list-group-item a:active {
+  color:#333;
+}
+

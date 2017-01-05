@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kiosk</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic">
+    <link rel="stylesheet" href="assets/css/_styles.css">
+    <link rel="stylesheet" href="assets/css/Background-Video.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Features-Blue.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+</head>
+
+<body>
+    <div class="simple-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(http://nydancesafe.plur-rx.com/kiosk/assets/img/2cb-front.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(http://nydancesafe.plur-rx.com/kiosk/assets/img/2cb-back.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(http://nydancesafe.plur-rx.com/kiosk/assets/img/acid-front.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(http://nydancesafe.plur-rx.com/kiosk/assets/img/acid-back.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(http://nydancesafe.plur-rx.com/kiosk/assets/img/alcohol-front.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(http://nydancesafe.plur-rx.com/kiosk/assets/img/alcohol-back.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(http://nydancesafe.plur-rx.com/kiosk/assets/img/ecstasy-front.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(http://nydancesafe.plur-rx.com/kiosk/assets/img/ecstasy-back.jpg)"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="page-header">
+                <h1>Drug Information Cards</h1></div>
+        </div>
+        <div class="container" id="drug_info">
+            <div class="row">
+                <div class="col-xs-4">
+    <ul class="list-group">
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Acid (LSD)</a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Alcohol</a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Cathinones</a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Cocaine</a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">DMT</a></span></li>
+    </ul>
+
+</div>
+                <div class="col-xs-4">
+    <ul class="list-group">
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Ecstasy (MDMA)</a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">GHB</a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Heroin</a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Ketamine</a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Marijuana</a></span></li>
+    </ul>
+</div>
+                <div class="col-xs-4">
+    <ul class="list-group">
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Mushrooms (Psilocybin) </a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">NBOME </a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Nitrous Oxide </a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Poppers (Nitrites)</a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Speed (Methamphetamine)</a></span></li>
+        <li class="list-group-item"><span><a href="#" data-toggle="modal" data-target="#cardModal">Tobacco (Nicotine)</a></span></li>
+    </ul>
+</div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/infocards.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+    <div class="modal fade" id="cardModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">Modal Title</h4></div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" type="button">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/infocards.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/_druglookup.js"></script>
+    <script src="assets/js/_infocards.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+# robots.txt for http://nydancesafe.plur-rx.com/
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /kiosk/
+Disallow: /_old/
+Disallow: testkits_old.php
